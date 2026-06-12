@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agro Forte, Futuro Sustentável</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header>
+
+<nav>
+<h2>🌿 Agro Forte</h2>
+
+<ul>
+<li><a href="#causas">Causas</a></li>
+<li><a href="#impactos">Impactos</a></li>
+<li><a href="#solucoes">Soluções</a></li>
+</ul>
+</nav>
+
+<div class="hero">
+
+<div class="texto">
+
+<h1>💧 Água Limpa,<br>Vida que Flui!</h1>
+
+<h3>
+Poluição dos rios: um desafio de todos,
+uma responsabilidade de cada um.
+</h3>
+
+<p>
+Cuidar dos rios é garantir água de qualidade,
+produção agrícola sustentável e um futuro melhor.
+</p>
+
+<button onclick="mensagem()">
+Saiba Mais
+</button>
+
+</div>
+
+<div class="imagem">
+
+<i class="fa-solid fa-water"></i>
+
+</div>
+
+</div>
+
+</header>
+
+<section id="causas">
+
+<h2>Principais Causas da Poluição dos Rios</h2>
+
+<div class="cards">
+
+<div class="card">
+<i class="fa-solid fa-industry"></i>
+<h3>Poluição Industrial</h3>
+<p>Descartes irregulares contaminam a água.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-trash"></i>
+<h3>Lixo e Plásticos</h3>
+<p>Resíduos jogados incorretamente prejudicam os rios.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-tractor"></i>
+<h3>Agrotóxicos</h3>
+<p>O uso excessivo afeta a qualidade da água.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-tree"></i>
+<h3>Desmatamento</h3>
+<p>A erosão do solo prejudica os recursos hídricos.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="impactos">
+
+<h2>Impactos da Poluição</h2>
+
+<div class="cards">
+
+<div class="card">
+<i class="fa-solid fa-fish"></i>
+<h3>Biodiversidade</h3>
+<p>Animais aquáticos são prejudicados.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-droplet"></i>
+<h3>Água Imprópria</h3>
+<p>Afeta a agricultura e o consumo humano.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-heart"></i>
+<h3>Saúde</h3>
+<p>Favorece doenças e problemas ambientais.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="solucoes">
+
+<h2>Soluções que Transformam</h2>
+
+<div class="cards">
+
+<div class="card">
+<i class="fa-solid fa-recycle"></i>
+<h3>Reciclagem</h3>
+<p>Descarte correto protege os rios.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-seedling"></i>
+<h3>Agricultura Sustentável</h3>
+<p>Reduz os impactos ao meio ambiente.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-tree"></i>
+<h3>Preservação</h3>
+<p>Proteção das matas ciliares e nascentes.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-people-group"></i>
+<h3>Conscientização</h3>
+<p>Pequenas atitudes geram grandes mudanças.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>🌎 Agro Forte, Futuro Sustentável</h2>
+
+<p>
+O futuro é agora. Cuide dos rios, cuide da vida!
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+function mensagem(){
+alert("💧 Cuidar dos rios é garantir um agro forte e um futuro sustentável!");
+}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial, sans-serif;
+background:#eaf7ff;
+}
+
+header{
+background:linear-gradient(135deg,#003366,#0099ff);
+color:white;
+padding-bottom:80px;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:25px 10%;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+display:flex;
+justify-content:space-around;
+align-items:center;
+padding:80px 10%;
+}
+
+.texto{
+width:50%;
+}
+
+.texto h1{
+font-size:65px;
+margin-bottom:20px;
+}
+
+.texto h3{
+margin-bottom:20px;
+}
+
+button{
+margin-top:30px;
+padding:15px 35px;
+border:none;
+border-radius:40px;
+background:#00bfff;
+color:white;
+cursor:pointer;
+}
+
+.imagem{
+font-size:250px;
+color:#99ddff;
+}
+
+section{
+padding:90px 10%;
+}
+
+section h2{
+text-align:center;
+color:#003366;
+margin-bottom:50px;
+}
+
+.cards{
+display:flex;
+gap:30px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.card{
+background:white;
+width:260px;
+padding:30px;
+text-align:center;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.card i{
+font-size:55px;
+color:#0099ff;
+margin-bottom:20px;
+}
+
+#impactos{
+background:#003366;
+}
+
+#impactos h2{
+color:white;
+}
+
+#impactos .card{
+background:#0f4c81;
+color:white;
+}
+
+footer{
+background:#002244;
+color:white;
+text-align:center;
+padding:40px;
+}
